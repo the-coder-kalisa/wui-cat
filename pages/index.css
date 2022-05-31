@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+div.sidebar {
+    position: fixed;
+    left: 0;
+    border-right: 1px solid #a6acb8;
+    width: 15rem;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+div.content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: start;
+    width: 13.8rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.content:hover {
+    background-color: #f6f7fb;
+    color: #8146ff;
+}
+
+.gray {
+    color: #a6acb8;
+}
+
+.active {
+    color: #8146ff;
+    background-color: #e9e9e9;
+}
+
+.mine {
+    width: 25px;
+}
+
+.contaier {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+i {
+    font-size: 20px;
+}
+.dash{
+    padding-left: 15rem;
+    background-color: #f6f6f6;
+    height: 100vh;
+}
+.search{
+    border: 1px solid gray;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding: 0 20px;
+}
+img.profile{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+div.profiles{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+input[type="search"]{
+    border: none;
+    outline: none;
+}
+div.name{
+    font-weight: bold;
+}
+div.title{
+    display: flex;
+    /* margin-top: 10px; */
+    padding: 15px 10px;
+    justify-content: space-between;
+}
+div.add{
+    background-color: #8146ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+div.main{
+    background-color: white;
+    height: 80vh;
+    padding: 10px;
+}
+div.fit{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+div.icons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0; 
+}
+table{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+div.th{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    gap: 10px;
+}
+th{
+    text-align: left;
+}
+td, th, table{
+    border-bottom: 1px solid gray;
+}
